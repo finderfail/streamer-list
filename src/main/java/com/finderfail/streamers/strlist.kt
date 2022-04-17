@@ -25,7 +25,6 @@ class strlist : CommandExecutor, Listener {
         if (nbtfix.name.equals("info", ignoreCase = true)) {
             player.sendMessage("[Streamers] Abount this plugin:")
             player.sendMessage("[Streamers] Developed by finderfailoff")
-            player.sendMessage("[Streamers] Use jdk-1.8.0")
             player.sendMessage("[Streamers] Use Kotlin")
             player.sendMessage("[Streamers] Builded by Maven")
         }
