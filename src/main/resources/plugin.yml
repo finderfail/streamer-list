@@ -1,0 +1,19 @@
+name: Streamers
+version: '${project.version}'
+main: com.finderfail.streamers.Streamers
+api-version: 1.13
+authors: [ finderfail ]
+description: Streamers list
+commands:
+  streamers:
+    description: Send official streamers list
+    usage: /<command>
+    aliases: [streamers]
+  links:
+    description: Send official streamers links
+    usage: /<command>
+    aliases: [links]
+  info:
+    description: info about plugin
+    usage: /<command>
+    aliases: [info]
